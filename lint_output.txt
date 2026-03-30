@@ -1,0 +1,96 @@
+﻿
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\AboutSection.tsx
+  74:24  warning  'i' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\HeroSection.tsx
+  11:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx
+  115:15  warning  'radius' is assigned a value but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+  157:24  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:157:24
+  155 |           className="absolute rounded-full bg-primary/30"
+  156 |           style={{
+> 157 |             width: 2 + Math.random() * 3,
+      |                        ^^^^^^^^^^^^^ Cannot call impure function
+  158 |             height: 2 + Math.random() * 3,
+  159 |             top: `${20 + Math.random() * 60}%`,
+  160 |             left: `${20 + Math.random() * 60}%`,  react-hooks/purity
+  158:25  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:158:25
+  156 |           style={{
+  157 |             width: 2 + Math.random() * 3,
+> 158 |             height: 2 + Math.random() * 3,
+      |                         ^^^^^^^^^^^^^ Cannot call impure function
+  159 |             top: `${20 + Math.random() * 60}%`,
+  160 |             left: `${20 + Math.random() * 60}%`,
+  161 |           }}                                              react-hooks/purity
+  159:26  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:159:26
+  157 |             width: 2 + Math.random() * 3,
+  158 |             height: 2 + Math.random() * 3,
+> 159 |             top: `${20 + Math.random() * 60}%`,
+      |                          ^^^^^^^^^^^^^ Cannot call impure function
+  160 |             left: `${20 + Math.random() * 60}%`,
+  161 |           }}
+  162 |           animate={{                                           react-hooks/purity
+  160:27  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:160:27
+  158 |             height: 2 + Math.random() * 3,
+  159 |             top: `${20 + Math.random() * 60}%`,
+> 160 |             left: `${20 + Math.random() * 60}%`,
+      |                           ^^^^^^^^^^^^^ Cannot call impure function
+  161 |           }}
+  162 |           animate={{
+  163 |             opacity: [0, 0.8, 0],                                                  react-hooks/purity
+  165:26  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:165:26
+  163 |             opacity: [0, 0.8, 0],
+  164 |             scale: [0.5, 1, 0.5],
+> 165 |             y: [0, -20 - Math.random() * 30, 0],
+      |                          ^^^^^^^^^^^^^ Cannot call impure function
+  166 |           }}
+  167 |           transition={{
+  168 |             duration: 3 + Math.random() * 4,                                                            react-hooks/purity
+  168:27  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:168:27
+  166 |           }}
+  167 |           transition={{
+> 168 |             duration: 3 + Math.random() * 4,
+      |                           ^^^^^^^^^^^^^ Cannot call impure function
+  169 |             repeat: Infinity,
+  170 |             delay: Math.random() * 3,
+  171 |             ease: "easeInOut",                                                                             react-hooks/purity
+  170:20  error    Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Shrish\Desktop\vibecode\personal_portfolio\portfolio\src\components\OrbitalAnimation.tsx:170:20
+  168 |             duration: 3 + Math.random() * 4,
+  169 |             repeat: Infinity,
+> 170 |             delay: Math.random() * 3,
+      |                    ^^^^^^^^^^^^^ Cannot call impure function
+  171 |             ease: "easeInOut",
+  172 |           }}
+  173 |         />                                                                                                 react-hooks/purity
+
+Γ£û 10 problems (7 errors, 3 warnings)
+
