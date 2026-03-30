@@ -149,9 +149,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                 <motion.a
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  href="https://buymeacoffee.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/support"
                   className="flex-1 py-3 rounded-full border border-white/10 text-on-surface font-medium text-sm text-center hover:bg-white/5 transition-colors"
                 >
                   ☕ Buy Me a Coffee
