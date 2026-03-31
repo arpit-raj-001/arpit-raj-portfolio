@@ -40,11 +40,11 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="font-[var(--font-headline)] text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-extralight tracking-tighter leading-[0.9] mb-8 text-on-surface"
         >
-          CRAFTING{" "}
+          BUILDING{" "}
           <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-            DIGITAL
+            WITH
           </span>{" "}
-          GRAVITY
+          PURPOSE
         </motion.h1>
 
         {/* Description */}
@@ -54,7 +54,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="max-w-xl mx-auto text-on-surface-variant text-base md:text-lg font-light leading-relaxed mb-10"
         >
-          Architecting high-performance ecosystems where precision engineering meets cinematic user experience.
+          Building fast, scalable apps with clean design and smooth user experiences that are fast, intuitive, and impactful.
         </motion.p>
 
         {/* CTA Buttons */}

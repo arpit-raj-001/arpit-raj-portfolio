@@ -136,7 +136,7 @@ export default function ProjectsCTA() {
         <h2 className="font-[var(--font-headline)] text-4xl md:text-6xl font-extralight tracking-tighter mb-16 text-on-surface">
           FEATURED{" "}
           <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#81ecff] to-[#00affe]">
-            MISSIONS
+            PROJECTS
           </span>
         </h2>
 

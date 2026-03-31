@@ -27,10 +27,16 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            I&apos;m <span className="text-primary font-medium">Arpit Raj</span>, a passionate
-            full-stack developer and problem solver. I thrive at the intersection of elegant code
-            and intuitive design, building digital experiences that don&apos;t just work — they{" "}
-            <span className="text-on-surface font-medium">inspire</span>.
+            I&apos;m <span className="text-primary font-medium">Arpit Raj</span>, a full-stack developer who enjoys building things that actually work well and feel good to use.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+          >
+            I like working across the stack — from designing clean, responsive interfaces with React and Next.js to building backend systems with Node.js and Python. For me, it&apos;s not just about making something functional, but making it intuitive and smooth for the user.
           </motion.p>
 
           <motion.p
@@ -39,22 +45,16 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
           >
-            From crafting pixel-perfect interfaces with React and Next.js to engineering
-            robust backend systems with Python and Node.js, I bring a holistic approach to
-            every project. My passion for competitive programming sharpens my problem-solving
-            instincts, while my eye for design ensures every solution is as beautiful as it is
-            functional.
+            I also spend time on competitive programming, which helps me think more clearly about problems and write better, more efficient code.
           </motion.p>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.6 }}
+            transition={{ delay: 0.5 }}
           >
-            Currently exploring the frontiers of web development, data analytics, and
-            algorithmic thinking. Always open to exciting collaborations and challenges
-            that push boundaries.
+            Right now, I&apos;m exploring web development, data analytics, and improving my problem-solving skills. I&apos;m always open to working on interesting ideas and collaborating on projects that challenge me.
           </motion.p>
         </div>
 
